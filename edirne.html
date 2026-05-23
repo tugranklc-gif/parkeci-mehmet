@@ -118,4 +118,132 @@
             transform: scale(1.1);
         }
 
-        .faq-
+        .faq-container { max-width: 900px; margin: auto; }
+        .faq-box { 
+            background: #fff; 
+            padding: 25px; 
+            margin-bottom: 20px; 
+            border-radius: 8px; 
+            border-left: 6px solid var(--primary); 
+            box-shadow: 0 3px 10px rgba(0,0,0,0.06); 
+        }
+        .faq-box h4 { margin-top: 0; color: var(--primary); font-size: 1.2rem; }
+
+        footer { background-color: var(--text-dark); color: var(--text-light); text-align: center; padding: 50px 20px; }
+        .contact-info { font-size: 1.3rem; margin-bottom: 20px; }
+        .contact-info span { display: block; margin: 15px 0; }
+        .contact-info a { color: var(--secondary); text-decoration: none; }
+
+        @media(max-width: 768px) { .nav-links { display: none; } .hero h1 { font-size: 2.2rem; } .hero .subtitle { font-size: 1.3rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <div class="logo">PARKECİ MEHMET</div>
+            <nav class="nav-links">
+                <a href="#anasayfa">Anasayfa</a>
+                <a href="#hizmetler">Hizmetlerimiz</a>
+                <a href="#galeri">Galerimiz</a>
+                <a href="#bilgi">Faydalı Bilgiler</a>
+                <a href="#iletisim">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="anasayfa" class="hero">
+        <div class="container">
+            <h1>Edirne Parke Ustası ve Sistre Cila Uzmanı</h1>
+            <div class="subtitle">Zeminlerinize Hayat Veriyoruz</div>
+            <p>27 yıllık tecrübemizle masif parke, lamine parke tamiri, sistre ve cila işlerinizi ilk günkü zarafetine kavuşturuyoruz. Edirne Merkez, Keşan, Uzunköprü ve tüm ilçelerde profesyonel ahşap silim ve cilalama hizmetleri.</p>
+            <a href="#iletisim" class="btn">Hemen Bize Ulaşın</a>
+        </div>
+    </section>
+
+    <section id="hizmetler" class="section">
+        <div class="container">
+            <h2 class="section-title">Uzmanlık Alanlarımız</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Sistre & Cila İşleri</h3>
+                    <p>Zamanla yıpranan ve çizilen parkelerinizi tozsuz sistre makinelerimizle zımparalıyor, birinci sınıf cila ile Edirne genelindeki mekanlarınızı yepyeni bir görünüme kavuşturuyoruz.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Masif & Lamine Tamiri</h3>
+                    <p>Kalkan, kabaran veya hasar gören ahşap ve lamine parkelerinizin bölgesel tamiratını ustalıkla gerçekleştiriyoruz.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Edirne Laminat Parke Döşeme</h3>
+                    <p>Çizilme, darbe ve solmaya dayanıklı, her bütçeye uygun dekoratif laminat parke çeşitlerinin hızlı ve kusursuz montajı.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="section" style="background-color: #f4ece1;">
+        <div class="container">
+            <h2 class="section-title">Yaptığımız İşlerden Kareler</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/y9ys22.jpg" alt="Edirne Parke Sistre Uygulaması"></div>
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/ppbj3s.jpg" alt="Keşan Ahşap Zemin Yenileme"></div>
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/ft6mby.jpg" alt="Edirne Laminat Parke Döşeme Ustası"></div>
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/6t26f6.jpg" alt="Uzunköprü Parke Cilalama Sonrası"></div>
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/3w974e.jpg" alt="Masif Parke Tamiri Edirne"></div>
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/hq7aac.jpg" alt="Zemin Silim İşlemi Havsa"></div>
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/ju8h5b.jpg" alt="Parke Bakım ve Onarım"></div>
+                <div class="gallery-item"><img src="https://www.ustasiburada.com/images/profile/356/355621/7pzuk3.jpg" alt="Tamamlanmış Parke İşçiliği"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bilgi" class="section">
+        <div class="container faq-container">
+            <h2 class="section-title">Hakkında Bilinmesi Gerekenler</h2>
+            
+            <div class="faq-box">
+                <h4>Sistre İşlemi Boya Badanadan Önce Mi Sonra Mı Yapılır?</h4>
+                <p>Bu tamamen boyayı yapan kişinin çalışma stiline bağlıdır. Boyacı profesyonel çalışır, zeminleri kalın naylonla kapatırsa sistre boyadan önce yapılabilir. Eğer sistre boyadan sonra yapılacaksa, güncel makinelerimizin tozu çok az olduğundan boyaya yapışmaz ve leke yapmaz.</p>
+            </div>
+
+            <div class="faq-box">
+                <h4>Laminat Parkelere Sistre Olur Mu?</h4>
+                <p>Hayır, laminat parkeler sistre olmaz. Çünkü içeriğinde doğal ağaç yoktur; içi sıkıştırılmış talaş (MDF/HDF), yüzeyi ise özel bir kağıt kaplamadır.</p>
+            </div>
+
+            <div class="faq-box">
+                <h4>Çizilen Ahşap Parkeye Ne Yapılabilir?</h4>
+                <p>Çizik çok inceyse ve sadece cila tabakasındaysa ufak rötüşlarla giderilebilir. Ancak cilanın altındaki ahşap tabaka çizildiyse, zeminin tamamen düzeltilmesi için sistre ve cila işlemi yapılması gerekir.</p>
+            </div>
+            
+            <div class="faq-box">
+                <h4>Laminat Parke Seçerken Neye Dikkat Etmeli?</h4>
+                <p>Laminat parkede koruyucu tabaka olan "devir" (32., 33. sınıf) ofis ve mağazalar için önemlidir, ev için çok kritik değildir. Renk seçerken ışık sorunu olan karanlık ortamlarda koyu renkler tercih edilmemelidir. En önemlisi, montaj yapılacak zeminin pürüzsüz ve terazide olmasıdır.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="iletisim">
+        <div class="container">
+            <h2>Bizimle İletişime Geçin</h2>
+            <p>Zemin dekorasyon işiniz mi var? Evinizin parkesini yenilemeyi mi düşünüyorsunuz? Güvenilir teknik destek ve usta işçilik için arayın.</p>
+            
+            <div class="contact-info">
+                <span><strong>Telefon:</strong> <a href="tel:05426265048">0542 626 50 48</a></span>
+                <span><strong>E-Posta:</strong> <a href="mailto:mehmetas6638@hotmail.com">mehmetas6638@hotmail.com</a></span>
+                <span><strong>Hizmet Bölgesi:</strong> Edirne, Keşan, Uzunköprü, Havsa ve Çevre İlçeler</span>
+            </div>
+
+            <div style="margin-top: 20px; font-size: 1.1rem;">
+                <strong>Hizmet Bölgelerimiz:</strong><br>
+                <a href="/" style="color: var(--secondary); margin-right: 15px;">Çorlu (Merkez)</a>
+                <a href="/kirklareli.html" style="color: var(--secondary); margin-right: 15px;">Kırklareli</a>
+                <a href="/edirne.html" style="color: var(--secondary);">Edirne</a>
+            </div>
+
+            <p style="margin-top: 40px; font-size: 0.9rem; color: #aaa;">&copy; 2026 Parkeci Mehmet. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
