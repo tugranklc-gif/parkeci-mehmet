@@ -26,7 +26,6 @@
             line-height: 1.6; 
         }
 
-        /* Navigasyon Alanı */
         header { 
             background-color: var(--primary); 
             color: var(--text-light); 
@@ -59,7 +58,6 @@
         }
         .nav-links a:hover { color: var(--secondary); }
 
-        /* Ana Karşılama Ekranı (Hero) */
         .hero { 
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1581858326456-42c262e3146e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') center/cover; 
             color: var(--text-light); 
@@ -83,11 +81,9 @@
         }
         .btn:hover { background-color: #fff; transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
 
-        /* Bölüm Standartları */
         .section { padding: 80px 0; }
         .section-title { text-align: center; font-size: 2.5rem; color: var(--primary); margin-bottom: 50px; }
 
-        /* Hizmetler Grid */
         .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         .service-card { 
             background: #fff; 
@@ -101,7 +97,6 @@
         .service-card:hover { transform: translateY(-10px); }
         .service-card h3 { color: var(--primary); margin-bottom: 15px; font-size: 1.5rem; }
 
-        /* Galeri Grid */
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -123,7 +118,6 @@
             transform: scale(1.1);
         }
 
-        /* Sıkça Sorulan Sorular */
         .faq-container { max-width: 900px; margin: auto; }
         .faq-box { 
             background: #fff; 
@@ -135,7 +129,6 @@
         }
         .faq-box h4 { margin-top: 0; color: var(--primary); font-size: 1.2rem; }
 
-        /* Altbilgi (Footer) */
         footer { background-color: var(--text-dark); color: var(--text-light); text-align: center; padding: 50px 20px; }
         .contact-info { font-size: 1.3rem; margin-bottom: 20px; }
         .contact-info span { display: block; margin: 15px 0; }
@@ -207,22 +200,18 @@
     <section id="bilgi" class="section">
         <div class="container faq-container">
             <h2 class="section-title">Hakkında Bilinmesi Gerekenler</h2>
-            
             <div class="faq-box">
                 <h4>Sistre İşlemi Boya Badanadan Önce Mi Sonra Mı Yapılır?</h4>
                 <p>Bu tamamen boyayı yapan kişinin çalışma stiline bağlıdır. Boyacı profesyonel çalışır, zeminleri kalın naylonla kapatırsa sistre boyadan önce yapılabilir. Eğer sistre boyadan sonra yapılacaksa, güncel makinelerimizin tozu çok az olduğundan boyaya yapışmaz ve leke yapmaz.</p>
             </div>
-
             <div class="faq-box">
                 <h4>Laminat Parkelere Sistre Olur Mu?</h4>
                 <p>Hayır, laminat parkeler sistre olmaz. Çünkü içeriğinde doğal ağaç yoktur; içi sıkıştırılmış talaş (MDF/HDF), yüzeyi ise özel bir kağıt kaplamadır.</p>
             </div>
-
             <div class="faq-box">
                 <h4>Çizilen Ahşap Parkeye Ne Yapılabilir?</h4>
                 <p>Çizik çok inceyse ve sadece cila tabakasındaysa ufak rötüşlarla giderilebilir. Ancak cilanın altındaki ahşap tabaka çizildiyse, zeminin tamamen düzeltilmesi için sistre ve cila işlemi yapılması gerekir.</p>
             </div>
-            
             <div class="faq-box">
                 <h4>Laminat Parke Seçerken Neye Dikkat Etmeli?</h4>
                 <p>Laminat parkede koruyucu tabaka olan "devir" (32., 33. sınıf) ofis ve mağazalar için önemlidir, ev için çok kritik değildir. Renk seçerken ışık sorunu olan karanlık ortamlarda koyu renkler tercih edilmemelidir. En önemlisi, montaj yapılacak zeminin pürüzsüz ve terazide olmasıdır.</p>
@@ -239,15 +228,21 @@
                 <span><strong>E-Posta:</strong> <a href="mailto:mehmetas6638@hotmail.com">mehmetas6638@hotmail.com</a></span>
                 <span><strong>Hizmet Bölgesi:</strong> Çorlu ve Civarı</span>
             </div>
-<div style="margin-top: 20px; font-size: 1.1rem;">
-    <strong>Hizmet Bölgelerimiz:</strong><br>
-    <a href="/" style="color: var(--secondary); margin-right: 15px;">Çorlu (Merkez)</a>
-    <a href="/kirklareli.html" style="color: var(--secondary); margin-right: 15px;">Kırklareli</a>
-    <a href="/edirne.html" style="color: var(--secondary);">Edirne</a>
-</div>
+
+            <div style="margin-top: 20px; font-size: 1.1rem; line-height: 2;">
+                <strong>Hizmet Bölgelerimiz:</strong><br>
+                <a href="/" style="color: var(--secondary); margin-right: 15px;">Çorlu (Merkez)</a>
+                <a href="/tekirdag.html" style="color: var(--secondary); margin-right: 15px;">Tekirdağ</a>
+                <a href="/kirklareli.html" style="color: var(--secondary); margin-right: 15px;">Kırklareli</a>
+                <a href="/edirne.html" style="color: var(--secondary); margin-right: 15px;">Edirne</a><br>
+                <a href="/suleymanpasa.html" style="color: var(--secondary); margin-right: 15px;">Süleymanpaşa</a>
+                <a href="/marmaraereglisi.html" style="color: var(--secondary); margin-right: 15px;">Marmaraereğlisi</a>
+                <a href="/luleburgaz.html" style="color: var(--secondary); margin-right: 15px;">Lüleburgaz</a>
+                <a href="/yeniciftlik.html" style="color: var(--secondary);">Yeniçiftlik</a>
+            </div>
+
             <p style="margin-top: 40px; font-size: 0.9rem; color: #aaa;">&copy; 2026 Parkeci Mehmet. Tüm Hakları Saklıdır.</p>
         </div>
     </footer>
-
 </body>
 </html>
