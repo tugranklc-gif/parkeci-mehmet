@@ -2,42 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://parkecimehmet.com/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://parkecimehmet.com/cerkezkoy.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/kapakli.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/muratli.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/saray.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://parkecimehmet.com/tekirdag.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://parkecimehmet.com/kirklareli.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://parkecimehmet.com/edirne.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://parkecimehmet.com/suleymanpasa.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://parkecimehmet.com/marmaraereglisi.html</loc>
-    <lastmod>2026-05-23</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://parkecimehmet.com/luleburgaz.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://parkecimehmet.com/yeniciftlik.html</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-09-07</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/kirklareli.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/luleburgaz.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/edirne.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/corlu-laminat-parke.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/agt-parke.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/camsan-parke.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/terraclick-parke.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://parkecimehmet.com/supurgelik.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.9</priority>
   </url>
 </urlset>

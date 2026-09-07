@@ -1,0 +1,13 @@
+PARKECIMEHMET.COM - v3 yukleme notu (07.09.2026)
+
+GitHub'a yuklerken (tugranklc-gif/parkeci-mehmet, main):
+1. Bu klasordeki HER SEYI repo kokune at (ustune yaz): 16 html, sitemap.xml, robots.txt, CNAME,
+   css/, js/, img/ klasorleri (img/urun icinde 631 urun gorseli var, toplam ~16 MB).
+2. Eski ustasiburada linkleri kalmadi; tum gorseller /img altinda.
+3. Yukledikten sonra Search Console > Sitemaps > https://parkecimehmet.com/sitemap.xml tekrar gonder.
+4. Yeni sayfalar: cerkezkoy, kapakli, saray, muratli, agt-parke, camsan-parke, terraclick-parke, supurgelik.
+
+Kontrol edilecekler (sitede varsayilan yazdim, yanlissa soyle degistirelim):
+- Calisma saati: Pzt-Cmt 08:00-19:00 (JSON-LD icinde)
+- WhatsApp: 0542 626 50 48 numarasinin WhatsApp'i acik olmali (wa.me/905426265048)
+- "27 yillik tecrube" ifadesi eski siteden korundu
