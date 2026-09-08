@@ -16,6 +16,13 @@
     <meta property="og:image" content="https://parkecimehmet.com/img/corlu-cam-zemin-cila-teslim.webp">
     <meta name="geo.region" content="TR-59">
     <meta name="geo.placename" content="Süleymanpaşa">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17547828814"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-17547828814');
+    var PM_CONV={tel:'',wa:''};
+    document.addEventListener('click',function(e){var a=e.target.closest('a');if(!a)return;var h=a.getAttribute('href')||'';var k=h.indexOf('tel:')===0?'tel':(h.indexOf('wa.me')>-1||h.indexOf('whatsapp')>-1)?'wa':null;if(!k)return;
+    gtag('event',k==='tel'?'telefon_tiklama':'whatsapp_tiklama',{event_category:'iletisim',event_label:location.pathname});
+    if(PM_CONV[k])gtag('event','conversion',{send_to:'AW-17547828814/'+PM_CONV[k]});},true);</script>
     <link rel="icon" href="favicon.ico"><link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <style>:root{--primary:#8B5A2B;--secondary:#F5DEB3;--text-dark:#333;--text-light:#fff;--bg-light:#f9f9f9;--muted:#6b6b6b}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
