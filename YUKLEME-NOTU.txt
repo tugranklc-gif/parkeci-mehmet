@@ -1,13 +1,44 @@
-PARKECIMEHMET.COM - v3 yukleme notu (07.09.2026)
+PARKECIMEHMET.COM - v3.1 guncelleme notu (12.09.2026)
 
-GitHub'a yuklerken (tugranklc-gif/parkeci-mehmet, main):
-1. Bu klasordeki HER SEYI repo kokune at (ustune yaz): 16 html, sitemap.xml, robots.txt, CNAME,
-   css/, js/, img/ klasorleri (img/urun icinde 631 urun gorseli var, toplam ~16 MB).
-2. Eski ustasiburada linkleri kalmadi; tum gorseller /img altinda.
-3. Yukledikten sonra Search Console > Sitemaps > https://parkecimehmet.com/sitemap.xml tekrar gonder.
-4. Yeni sayfalar: cerkezkoy, kapakli, saray, muratli, agt-parke, camsan-parke, terraclick-parke, supurgelik.
+YENI: silivri.html ve canakkale.html - SISTRE CILA odakli bolge sayfalari.
 
-Kontrol edilecekler (sitede varsayilan yazdim, yanlissa soyle degistirelim):
-- Calisma saati: Pzt-Cmt 08:00-19:00 (JSON-LD icinde)
-- WhatsApp: 0542 626 50 48 numarasinin WhatsApp'i acik olmali (wa.me/905426265048)
-- "27 yillik tecrube" ifadesi eski siteden korundu
+Bu zip SADECE degisen dosyalari icerir. img/, css/, js/, CNAME, favicon dokunulmadi.
+
+Yapilacaklar (Desktop\parkeci-mehmet klasorunde):
+1. Zipteki 19 html + sitemap.xml'i repo kokune kopyala (ustune yaz).
+2. git add -A && git commit -m "Silivri ve Canakkale sistre cila sayfalari" && git push
+3. Search Console > Sitemaps > sitemap.xml tekrar gonder.
+4. Search Console > URL Denetimi > "Dizine ekleme istegi":
+   https://parkecimehmet.com/silivri.html
+   https://parkecimehmet.com/canakkale.html
+
+Iki yeni sayfanin kurgusu (sistre odakli):
+- Title/H1: "... Parke Sistre Cila ve Zimpara Ustasi" - laminat ikinci planda
+- Hedef sorgular: "silivri parke sistre", "silivri parke cila", "silivri parke zimpara",
+  "canakkale parke sistre", "canakkale parke cila", "canakkale parke zimpara",
+  "... ahsap zemin cilalama", "... masif parke yenileme"
+- Yeni bolum: "Sistre Cila Nasil Yapiliyor?" - 7 adim (kesif/kalinlik, maskeleme,
+  kaba zimpara 36-40 kum, tamir+derz dolgusu, ince zimpara 100-120 kum,
+  astar+2-3 kat cila, kuruma/teslim)
+- 5 SSS: toz/evde kalma, eski parke kurtarilir mi, sure ve m2 fiyat, cila kokusu,
+  bolgeye gelis sartlari
+- Menudeki "Galerimiz" yerine "Sistre Cila" (yeni bolume gidiyor)
+- Hero butonu artik "Sistre Nasil Yapilir?" (eskiden olu #parke-modelleri baglantisiydi)
+
+Iki sayfada da AW-17547828814 Google tag, G-0BCM4KKPMW GA4 ve PM_CONV donusum
+kodlari mevcut; telefon/WhatsApp tiklamalari ilk gunden sayilir.
+
+Degisen dosyalar:
+- YENI: silivri.html, canakkale.html
+- GUNCELLENDI (17 sayfa): bolge link listeleri, footer linkleri, JSON-LD areaServed
+- GUNCELLENDI: sitemap.xml (17 -> 19 URL)
+
+Kontrol edilecek teknik ifadeler (yanlissa soyle duzeltelim):
+- "22 mm masif parkede 4-5 kez daha sistre payi vardir"
+- "lamine parkede ust tabaka 2,5-4 mm, 1-2 kez sistre alir"
+- "ust tabaka 3 mm altinda ise sistre riskli"
+- "100 m2 daire ortalama 2-3 gun"
+- "su bazli cilada 24 saat sonra basilir, mobilya 3-4 gun sonra"
+- Zimpara kum numaralari: 36-40 / 60 / 100-120
+- Canakkale: "1915 Koprusu ile 2,5 saat", ekip bolgede konaklar, tek oda isi alinmaz
+- Silivri: "Corlu'dan 35 dakika", yol ucreti yok
